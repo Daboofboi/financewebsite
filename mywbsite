@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kainos Capital Management - Strategic investment solutions with tailored packages for every investor.">
+    <title>Kainos Capital Management</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x800'); /* Placeholder Image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* Content Section */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Packages Section */
+        .packages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .package {
+            background-color: white;
+            padding: 30px;
+            width: 48%;
+            border-radius: 8px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .package h3 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .package p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .package ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .package ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .package ul li::before {
+            content: "✔";
+            color: #0f9b0f;
+            margin-right: 10px;
+        }
+
+        .cta-button {
+            background-color: #0f9b0f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0c7e0c;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #0f9b0f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Kainos Capital Management</h1>
+        <p>Your Trusted Partner in Strategic Investments</p>
+    </div>
+</section>
+
+<div class="container">
+    <section class="intro">
+        <h2>Welcome to Kainos Capital Management</h2>
+        <p>Providing strategic investment solutions to help you navigate the financial markets with ease. Choose from our affordable packages below to start your journey towards financial success.</p>
+    </section>
+
+    <section class="packages">
+        <div class="package">
+            <h3>Basic Tier - $25</h3>
+            <p>Perfect for beginners looking to get their feet wet in the market.</p>
+            <ul>
+                <li>Brief stock portfolio</li>
+                <li>Occasional earnings calls</li>
+                <li>Weekly market forecast</li>
+                <li>Brief research reports</li>
+            </ul>
+            <a href="#" class="cta-button">Choose Basic</a>
+        </div>
+
+        <div class="package">
+            <h3>VIP Tier - Contact for Pricing</h3>
+            <p>For the serious investor looking for hands-on portfolio management.</p>
+            <ul>
+                <li>Full research reports</li>
+                <li>Weekly market forecast</li>
+                <li>Exclusive earnings calls</li>
+                <li>Active portfolio management</li>
+            </ul>
+            <a href="#" class="cta-button">Contact for VIP</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kainos Capital Management. All Rights Reserved.</p>
+    <p>Find us on <a href="#">LinkedIn</a> or <a href="#">Twitter</a>.</p>
+</footer>
+
+</body>
+</html>
